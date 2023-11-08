@@ -14,7 +14,7 @@ setWeatherData({
     description: (response.data.condition.description),
     wind: (response.data.wind.speed),
     humidity: (response.data.temperature.humidity),
-    iconUrl:`http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${(response.data.condition.icon)}.png`,
+    iconUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
 });
 }
 
@@ -61,7 +61,6 @@ setWeatherData({
         );
     } else {
         const apiKey = "b5a70e3dbaf3379o5576fffe161ca0t4";
-        let city = "London";
         let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${props.defaultCity}&key=${apiKey}&units=metric`;
         axios.get(apiUrl).then(handleResponse);
         return "Loading..."
