@@ -42,10 +42,9 @@
     vertical-align: top;
 }
 
-.Weather img {
+.Weather canvas {
     display: inline-block;
-    height: 60px;
-    width: 60px;
     vertical-align: top;
-    margin-right: 10px;
+    margin-right: 5px;
+   
 }

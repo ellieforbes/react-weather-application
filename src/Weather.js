@@ -18,7 +18,7 @@ setWeatherData({
     description: (response.data.condition.description),
     wind: (response.data.wind.speed),
     humidity: (response.data.temperature.humidity),
-    iconUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
+    icon: (response.data.condition.icon),
 });
 }
 
