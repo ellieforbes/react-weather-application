@@ -1,13 +1,13 @@
 .Weather {
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid #dadde1;
-    color:rgb(135, 135, 135);
-    padding: 16px;
-    border-radius: 4px;
-   
-
+    background: radial-gradient(circle at 10% 20%, rgba(216, 241, 230, 0.46) 0.1%, rgba(233, 226, 226, 0.28) 90.1%);
+    background-color: #ffffff4d;
+    border-radius: 10px;
+    margin: 60px auto;
+    margin-bottom: 10px;
+    max-width: 800px;
+    padding: 50px;
 }
-
 
 .Weather h1 {
     margin: 20px 0 0 0;
@@ -48,3 +48,28 @@
     margin-right: 5px;
    
 }
+
+.btn-primary {
+    border: 0.5px solid #303345;
+    border-radius: 10px;
+    padding: 8px 11px;
+    text-align: center;
+    width: 100%;
+    background-color: #303345;
+    color: white;
+    transition: 150ms ease-in-out;
+  }
+  .btn-primary:hover {
+    background-color: #303345;
+    color: white;
+    opacity: 0.7;
+  }
+
+  .form-control {
+    background-color: #fff;
+    border-radius: 10px;
+    color: #303345;
+    cursor: auto;
+    height: 100%;
+    padding: 8px 11px;
+  }

@@ -5,3 +5,14 @@
 .WeatherForecast-temperature-min {
     opacity: 0.7;
 }
+
+.col-holder {
+    background: #ffffff5c;;
+    border-radius: 10px;
+    color: #303345;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    padding: 10px 0px;
+    margin: 0 5px
+}
